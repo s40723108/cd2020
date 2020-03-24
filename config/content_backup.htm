@@ -67,3 +67,34 @@ Exit</pre>
 <p><br/><br/></p>
 <h2>3</h2>
 <h2>4</h2>
+<p>pj1-1亂數分組</p>
+<p><span>Describe how to do an efficient random grouping for this course or do the roll calling randomly?</span></p>
+<p><br/><span></span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">import random
+List=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]
+#變數
+List=List[0]
+#將List數列隨機排列
+random.shuffle(List)
+#列印數列
+print(List)
+#數列(1~12)
+print(List[0:12])
+#數列(13~24)
+print(List[12:24])
+#數列(25~36)
+print(List[24:36])
+#數列(37~49)
+print(List[36:49])</pre>
+<p></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">List=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]</pre>
+<p>清單</p>
+<p>List=List[0]</p>
+<p>變數</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">random.shuffle(List)</pre>
+<p>使用random.shuffle隨機排列</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">print(List)</pre>
+<p>數列複印<br/><br/></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">print(List[a:b])</pre>
+<p>複印a-b</p>
+<p>來源<a href="https://nkust.gitbook.io/python/untitled">https://nkust.gitbook.io/python/untitled</a></p>
