@@ -1,18 +1,8 @@
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>分組</h1>
+<p>分組倉儲:<a href="https://github.com/s40723108/cd2020ag2">https://github.com/s40723108/cd2020ag2</a></p>
+<p></p>
+<p>分組網站:<a href="https://s40723150.github.io/cd2020ag2/content/index.html" rel="nofollow">https://s40723150.github.io/cd2020ag2/content/index.html</a></p>
+
 <h1>week</h1>
 <h2>1</h2>
 <p>建立倉儲:</p>
@@ -273,7 +263,7 @@ print(List[36:49])</pre>
 <p>•必須考慮將物體固定在盒子上。也就是說，緊固系統將允許物體在多大程度上靠近牆壁？假設對象具有一個簡單的安裝孔，並且盒子中具有一個螺紋凸台。物體上的孔（比）要大一些（用於將物體固定到盒子的螺紋凸台中的螺釘）。因此，如果緊固件位於通孔的一側邊緣，則物體可能會更靠近牆壁。還必須考慮盒形螺紋凸台位置的位置公差（相對於盒壁），因為凸台實際上可能更靠近壁（由於製造公差）。通常，可以忽略此“緊固公差”，但在某些間隙有限的緊湊空間設計中，這可能很關鍵。因此，對於到目前為止的間隙示例，僅考慮公差，我們可以具有以下公差：</p>
 <p>• Wall thickness could be thicker by 0.005 inch. (with a “constrained” overall dimension, all of this would add to the wall thickness inside the box).</p>
 <p>•壁厚可能要厚0.005英寸。 （在“受限”的整體尺寸下，所有這些都會增加盒子內部的壁厚）。</p>
-<p>• The object itself (mounting hole to object edge) could be at a maximum locational tolerance; this could be 0.010 inch. </p>
+<p>• The object itself (mounting hole to object edge) could be at a maximum locational tolerance; this could be 0.010 inch.</p>
 <p>•物體本身（將孔安裝到物體邊緣）可能處於最大位置公差；這可能是0.010英寸</p>
 <p>• The mounting boss in the box could be closer to the wall due to its positional tolerance; this could be 0.005 inch.</p>
 <p>•由於其位置公差，盒子中的安裝凸台可能更靠近牆壁。這可能是0.005英寸。</p>
@@ -390,7 +380,7 @@ print(List[36:49])</pre>
 <p>3.放置需要彼此距離盡可能遠的對象。同樣，可能出於機械，熱或電氣方面的原因。</p>
 <p>It should be noted that Layout 3 and Layout 4 could be more complicated to produce (manufacture). The nonsymmetrical enclosure could be more difficult to fabricate than straight walls. This is not necessarily so if the enclosure is a tooled (molded or cast) product. However, if the enclosure is sheet metal, the extra walls provide a bit more of an issue to fabricate.</p>
 <p>應該注意的是，佈局3和佈局4的生產（製造）可能更加複雜。非對稱外殼可能比直壁更難製造。如果外殼是工具（模壓或鑄造）產品，則不一定如此。但是，如果外殼是金屬板，則多餘的壁壁會給製造帶來更多問題。</p>
-<p>A note about designing in 3D: As all of the objects we design are actually 3D objects, we will actually need to design in 3D. A quick sketch in 2D may solve a portion of the design intent, but all of the details will need to be shown as the design moves to 3D. This makes working in CAD essential to the accuracies and speed required in the contemporary design world. Creating 3D models of all of the objects makes checking clearances and fits simple to change and optimize. An example of this is how a mechanical designer views a printed circuit board assembly (PCBA). </p>
+<p>A note about designing in 3D: As all of the objects we design are actually 3D objects, we will actually need to design in 3D. A quick sketch in 2D may solve a portion of the design intent, but all of the details will need to be shown as the design moves to 3D. This makes working in CAD essential to the accuracies and speed required in the contemporary design world. Creating 3D models of all of the objects makes checking clearances and fits simple to change and optimize. An example of this is how a mechanical designer views a printed circuit board assembly (PCBA).</p>
 <p>關於3D設計的注意事項：由於我們設計的所有對象實際上都是3D對象，因此實際上我們需要進行3D設計。快速的2D草圖可以解決部分設計意圖，但是在設計移至3D時需要顯示所有細節。這使得CAD工作對於當代設計界要求的精度和速度至關重要。通過創建所有對象的3D模型，可以檢查間隙並使其易於更改和優化。機械設計師如何看待印刷電路板組件（PCBA）就是一個例子。</p>
 <p>It basically has a 2D layout of many components mounted on a printed circuit board. However, all of those components are at various heights, thus clearances above and below the PCBA will vary in many areas. Thus, the PCBA, while primarily thought of as a “2D area” (in the “sketch phase”), has a “thickness” to it that makes it a 3D volume.</p>
 <p>它基本上具有安裝在印刷電路板上的許多組件的2D佈局。但是，所有這些組件都處於不同的高度，因此PCBA上方和下方的間隙在許多區域會有所不同。因此，PCBA雖然最初被認為是“ 2D區域”（處於“草圖階段”），但其具有“厚度”，使其成為3D體積。</p>
