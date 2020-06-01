@@ -154,9 +154,46 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">w12 << <a href='w12.html'>Previous</a> <a href='翻譯.html'>Next</a> >> 翻譯<br /><h1>分組倉儲</h1>
-<p><a href="https://s40723150.github.io/cd2020ag2/content/index.html">https://s40723150.github.io/cd2020ag2/content/index.html</a></p>
-<br />w12 << <a href='w12.html'>Previous</a> <a href='翻譯.html'>Next</a> >> 翻譯</div>
+    <div id="tipue_search_content">12 << <a href='12.html'>Previous</a> <a href='直播影片.html'>Next</a> >> 直播影片<br /><h1>13</h1>
+<p><span>Virtualbox網路設定 : </span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">ifconfig</pre>
+<p>如果顯示: ifconfig  not  found</p>
+<p>執行:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan
+sudo vi 00-install-config.yaml</pre>
+<p>編輯</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># This is the network config written by 'subiquity'
+network:
+    ethernets:
+        enpes3:
+            dhcp4: true
+            dhcp6: true
+            nameservers:
+                addresses:
+                    - 2001:b000:168::1
+    version: 2</pre>
+<p>編輯完<span>:wq儲存</span></p>
+<p><span>執行:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo netplan apply</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/apt.conf.d
+sudo vi proxy.conf</pre>
+<p>編輯</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">Acquire::http::proxy "http://[2001:288:6004:17::(照proxy打)]:3128";</pre>
+<p>編輯完<span>:wq儲存</span></p>
+<p><span>執行</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt update</pre>
+<p>設定IVP4及IVP6</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">file / Preferences / Network
+
+</pre>
+<p></p>
+<p></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"> ifconfig </pre>
+<p><br/><br/><br/></p>
+<p></p>
+<p></p>
+<br />12 << <a href='12.html'>Previous</a> <a href='直播影片.html'>Next</a> >> 直播影片</div>
         
     <!-- footer -->
       <div class="container">
