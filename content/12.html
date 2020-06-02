@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='倉儲.html'>倉儲</a><li class='has-children'><a href='week(1-9).html'>week(1-9)</a><ul class='dropdown'><li><a href='1.html'>1</a><li><a href='2.html'>2</a><li><a href='3.html'>3</a><li><a href='4.html'>4</a><li><a href='5.html'>5</a><li><a href='6.html'>6</a><li><a href='7.html'>7</a><li><a href='8.html'>8</a><li><a href='9.html'>9</a></li></ul><li class='has-children'><a href='week(10-.html'>week(10-</a><ul class='dropdown'><li><a href='10.html'>10</a><li><a href='11.html'>11</a><li><a href='12.html'>12</a><li><a href='13.html'>13</a></li></ul><li class='has-children'><a href='直播影片.html'>直播影片</a><ul class='dropdown'><li><a href='w2.html'>w2</a><li><a href='w3.html'>w3</a><li><a href='w4.w5.html'>w4.w5</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li><a href='W9.html'>W9</a><li><a href='w10.html'>w10</a><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a></li></ul><li><a href='分組倉儲.html'>分組倉儲</a><li class='has-children'><a href='翻譯.html'>翻譯</a><ul class='dropdown'><li><a href='ch2.html'>ch2</a><li><a href='ch3.html'>ch3</a></li>
+                     <li><a href='倉儲.html'>倉儲</a><li class='has-children'><a href='week(1-9).html'>week(1-9)</a><ul class='dropdown'><li><a href='1.html'>1</a><li><a href='2.html'>2</a><li><a href='3.html'>3</a><li><a href='4.html'>4</a><li><a href='5.html'>5</a><li><a href='6.html'>6</a><li><a href='7.html'>7</a><li><a href='8.html'>8</a><li><a href='9.html'>9</a></li></ul><li class='has-children'><a href='week(10-.html'>week(10-</a><ul class='dropdown'><li><a href='10.html'>10</a><li><a href='11.html'>11</a><li><a href='12.html'>12</a></li></ul><li class='has-children'><a href='直播影片.html'>直播影片</a><ul class='dropdown'><li><a href='w2.html'>w2</a><li><a href='w3.html'>w3</a><li><a href='w4.w5.html'>w4.w5</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li><a href='W9.html'>W9</a><li><a href='w10.html'>w10</a><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a></li></ul><li><a href='分組倉儲.html'>分組倉儲</a><li class='has-children'><a href='翻譯.html'>翻譯</a><ul class='dropdown'><li><a href='ch2.html'>ch2</a><li><a href='ch3.html'>ch3</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,11 +154,45 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">11 << <a href='11.html'>Previous</a> <a href='13.html'>Next</a> >> 13<br /><h1>12</h1>
-<p><a href="https://mde.tw/cdaw12-1">cdaw12-1</a></p>
-<p>網站:<a href="http://mde.tw/cdaw12-1/content/index.html">http://mde.tw/cdaw12-1/content/index.html</a></p>
-<p>倉儲:<a href="https://github.com/mdecourse/cdaw12-1">https://github.com/mdecourse/cdaw12-1</a></p>
-<br />11 << <a href='11.html'>Previous</a> <a href='13.html'>Next</a> >> 13</div>
+    <div id="tipue_search_content">11 << <a href='11.html'>Previous</a> <a href='直播影片.html'>Next</a> >> 直播影片<br /><h1>12</h1>
+<p><span>Virtualbox網路設定 : </span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">ifconfig</pre>
+<p>如果顯示: ifconfig  not  found</p>
+<p>執行:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan
+sudo vi 00-install-config.yaml</pre>
+<p>編輯</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># This is the network config written by 'subiquity'
+network:
+    ethernets:
+        enpes3:
+            dhcp4: true
+            dhcp6: true
+            nameservers:
+                addresses:
+                    - 2001:b000:168::1
+    version: 2</pre>
+<p>編輯完<span>:wq儲存</span></p>
+<p><span>執行:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo netplan apply</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/apt.conf.d
+sudo vi proxy.conf</pre>
+<p>編輯</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">Acquire::http::proxy "http://[2001:288:6004:17::(照proxy打)]:3128";</pre>
+<p>編輯完<span>:wq儲存</span></p>
+<p><span>執行</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt update</pre>
+<p>設定IVP4及IVP6</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">file / Preferences / Network
+
+</pre>
+<p></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"> ifconfig </pre>
+<br/>w13<br/><br/><br/>
+<p></p>
+<p></p>
+<br />11 << <a href='11.html'>Previous</a> <a href='直播影片.html'>Next</a> >> 直播影片</div>
         
     <!-- footer -->
       <div class="container">
