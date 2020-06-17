@@ -25,14 +25,17 @@
 <v t="leo.20200428181908.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181908.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
+<v t="leo.20200617102225.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102225.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200428181919.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200428181919.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
 <v t="leo.20200428181920.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181920.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200428181925.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181925.2"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20200428181919.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181919.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200428181922.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181922.2"><vh>LaTeX 格式方程式</vh></v>
@@ -46,23 +49,28 @@
 <v t="leo.20200617093437.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200617093437.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617095127.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617095127.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.1"><vh>各式內容引用範例</vh>
+<v t="leo.20200617102013.18"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.19"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617094052.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617094052.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102304.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102304.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617094056.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617094056.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.20"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.21"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617095012.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617095012.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.22"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.23"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617095311.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617095311.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.24"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.25"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617102013.26"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.27"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617102013.28"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617102013.29"><vh>LaTeX 格式方程式</vh></v>
 </v>
 </v>
 </v>
@@ -81,35 +89,22 @@
 
 ### 40723108
 
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+ [Repository](https://github.com/s40723108/cd2020)
 
+[Site](https://s40723108.github.io/cd2020/content/index.html)
+
+&lt;hr&gt;
+
+[Groupe Repository](https://github.com/s40723108/cd2020ag2)
+
+[Group Site](https://s40723150.github.io/cd2020ag2/content/index.html)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15"># week10
-
-onshap繪製小組分配之圖形
-
-https://github.com/s40723108/cd2020/tree/master/car
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -292,11 +287,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200428181908.2"># week1
-
-建立倉儲:
-
-使用模板:https://github.com/mdecourse/cmsimde.git
+<t tx="leo.20200428181908.2"># w1~8
 </t>
 <t tx="leo.20200428181912.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -427,7 +418,12 @@ https://s40723108.github.io/cd2020/content/4.html</t>
 
 
 </t>
-<t tx="leo.20200617094052.1">&lt;section data-markdown&gt;
+<t tx="leo.20200617102013.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200617102013.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -438,13 +434,9 @@ https://s40723108.github.io/cd2020/content/4.html</t>
 
 						
 </t>
-<t tx="leo.20200617094052.2"># week12
-
-Virtualbox網路設定
-
-https://s40723108.github.io/cd2020/content/12.html
+<t tx="leo.20200617102013.19"># w10~18
 </t>
-<t tx="leo.20200617094056.1">&lt;section data-markdown&gt;
+<t tx="leo.20200617102013.20">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -455,41 +447,7 @@ https://s40723108.github.io/cd2020/content/12.html
 
 						
 </t>
-<t tx="leo.20200617094056.2"># week13
-
-ubuntu設定IVP6
-
-https://s40723108.github.io/cd2020/content/13.html
-</t>
-<t tx="leo.20200617095012.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200617095012.2"># week14
-
-ubuntu設定IVP6
-
-https://s40723108.github.io/cd2020/content/13.html
-</t>
-<t tx="leo.20200617095127.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200617095127.2"># week11
+<t tx="leo.20200617102013.21"># week11
 
 cdaw12-1
 
@@ -497,7 +455,7 @@ cdaw12-1
 
 倉儲:https://github.com/mdecourse/cdaw12-1
 </t>
-<t tx="leo.20200617095311.1">&lt;section data-markdown&gt;
+<t tx="leo.20200617102013.22">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -508,7 +466,58 @@ cdaw12-1
 
 						
 </t>
-<t tx="leo.20200617095311.2"># week15
+<t tx="leo.20200617102013.23"># week12
+
+Virtualbox網路設定
+
+https://s40723108.github.io/cd2020/content/12.html
+</t>
+<t tx="leo.20200617102013.24">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617102013.25"># week13
+
+ubuntu設定IVP6
+
+https://s40723108.github.io/cd2020/content/13.html
+</t>
+<t tx="leo.20200617102013.26">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617102013.27"># week14
+
+ubuntu設定IVP6
+
+https://s40723108.github.io/cd2020/content/13.html
+</t>
+<t tx="leo.20200617102013.28">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617102013.29"># week15
 
 CDAW15-1
 
@@ -517,6 +526,40 @@ http://mde.tw/cdaw15-1/content/index.html
 跟上周差不多
 
 並且小組任務持續在進行
+</t>
+<t tx="leo.20200617102225.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617102225.2"># week1
+
+建立倉儲:
+
+使用模板:https://github.com/mdecourse/cmsimde.git
+</t>
+<t tx="leo.20200617102304.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617102304.2"># week10
+
+onshap繪製小組分配之圖形
+
+https://github.com/s40723108/cd2020/tree/master/car
 </t>
 </tnodes>
 </leo_file>
