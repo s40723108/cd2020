@@ -22,20 +22,17 @@
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
 <v t="leo.20200428181908.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181908.2"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20200428181919.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181919.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200428181920.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181920.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200428181925.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181925.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200428181919.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200428181919.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200428181922.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181922.2"><vh>LaTeX 格式方程式</vh></v>
@@ -45,6 +42,27 @@
 </v>
 <v t="leo.20200428181912.1"><vh>導入數學符號與方程式</vh>
 <v t="leo.20200428181912.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617093437.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617093437.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617095127.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617095127.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617094052.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617094052.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617094056.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617094056.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617095012.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617095012.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20200617095311.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200617095311.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
 </v>
 </v>
@@ -87,7 +105,11 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.15"># week
+<t tx="leo.20180902120523.15"># week10
+
+onshap繪製小組分配之圖形
+
+https://github.com/s40723108/cd2020/tree/master/car
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -385,5 +407,116 @@ pj1-1亂數分組
 Describe how to do an efficient random grouping for this course or do the roll calling randomly?
 
 https://s40723108.github.io/cd2020/content/4.html</t>
+<t tx="leo.20200617093437.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617093437.2"># week9
+
+
+其中作業
+
+ ### https://drive.google.com/file/d/1bpDUOolHSYKV_0Fgm4DCVBrLZsCLWrFS/view?usp=sharing
+
+
+</t>
+<t tx="leo.20200617094052.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617094052.2"># week12
+
+Virtualbox網路設定
+
+https://s40723108.github.io/cd2020/content/12.html
+</t>
+<t tx="leo.20200617094056.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617094056.2"># week13
+
+ubuntu設定IVP6
+
+https://s40723108.github.io/cd2020/content/13.html
+</t>
+<t tx="leo.20200617095012.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617095012.2"># week14
+
+ubuntu設定IVP6
+
+https://s40723108.github.io/cd2020/content/13.html
+</t>
+<t tx="leo.20200617095127.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617095127.2"># week11
+
+cdaw12-1
+
+網站:http://mde.tw/cdaw12-1/content/index.html
+
+倉儲:https://github.com/mdecourse/cdaw12-1
+</t>
+<t tx="leo.20200617095311.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200617095311.2"># week15
+
+CDAW15-1
+
+http://mde.tw/cdaw15-1/content/index.html
+
+跟上周差不多
+
+並且小組任務持續在進行
+</t>
 </tnodes>
 </leo_file>
