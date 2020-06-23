@@ -817,6 +817,18 @@ dns:
 <p>毫無疑問，使用<span>FEA</span>可以提供有關以下內容的許多有用信息涉及結構分析的工程問題（以及固體力學，動力學和熱分析）。分析得出的任何答案應該是首先使用簡化模型進行測試，然後用力來查看答案是否有幫助感。應該使用測試來驗證所做的假設和結果答案。使用<span>FEA</span>分析的另一個屬性是設計中的細微變化也可以將其輸入到分析中以查看結果如何變化。這樣，它可以很快顯示出如何使設計更好。</p>
 <p><span>Some companies are large enough to have an entire department devoted to FEA analysis, while others operate with the expectation that the designer will be analyzing the structures using FEA on their own.</span></p>
 <p>一些公司規模足夠大，可以將整個部門專門用於<span>FEA</span>分析，而其他人則希望設計人員自己使用<span>FEA</span>分析結構。</p>
+<h1>FFmpeg</h1>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">字幕
+
+ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4
+
+聲音
+
+ffmpeg -i origin.mp4 -c copy -an new.mp4
+
+浮水印
+
+ffmpeg -i input.mp4 -i kmol_102x30_color.png -filter_complex "overlay=5:950" output.mp4</pre>
 <div id="gtx-trans" style="position: absolute; left: 26px; top: 5213px;">
 <div class="gtx-trans-icon"></div>
 </div>
