@@ -69,6 +69,9 @@
 <v t="leo.20200617102013.28"><vh>w15</vh>
 <v t="leo.20200617102013.29"><vh>w15</vh></v>
 </v>
+<v t="leo.20200624111141.1"><vh>w16</vh>
+<v t="leo.20200624111141.2"><vh>w16</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -319,14 +322,11 @@ onshap適用
 						
 </t>
 <t tx="leo.20200428181916.2"># week6
-
 往後錄製影片需使用OBS
-
-https://portableapps.com/apps/music_video/obs-studio-portable
-
+###### https://portableapps.com/apps/music_video/obs-studio-portable
 使用OBS所產生的問題
 
-https://www.youtube.com/watch?v=ZqX1vtJ4i9A&amp;feature=emb_title</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZqX1vtJ4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200428181919.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -549,5 +549,25 @@ onshap繪製小組分配之圖形
 
 https://github.com/s40723108/cd2020/tree/master/car
 </t>
+<t tx="leo.20200624111141.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624111141.2"># week16
+
+CDAW16-2
+
+http://mde.tw/cdaw16-2/content/
+
+跟上周差不多
+
+並且小組任務持續在進行</t>
 </tnodes>
 </leo_file>
