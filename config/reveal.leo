@@ -22,55 +22,52 @@
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20200428181908.1"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200428181908.1"><vh>w1-8</vh>
 <v t="leo.20200428181908.2"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20200617102225.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102225.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102225.1"><vh>w1</vh>
+<v t="leo.20200617102225.2"><vh>w1</vh></v>
 </v>
-<v t="leo.20200428181919.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181919.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200428181919.1"><vh>w2</vh>
+<v t="leo.20200428181919.2"><vh>w2</vh></v>
 </v>
-<v t="leo.20200428181920.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181920.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200428181925.1"><vh>w4</vh>
+<v t="leo.20200428181925.2"><vh>w4</vh></v>
 </v>
-<v t="leo.20200428181925.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181925.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200428181922.1"><vh>w5</vh>
+<v t="leo.20200428181922.2"><vh>w5</vh></v>
 </v>
-<v t="leo.20200428181922.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181922.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200428181916.1"><vh>w6</vh>
+<v t="leo.20200428181916.2"><vh>w6</vh></v>
 </v>
-<v t="leo.20200428181916.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181916.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200428181912.1"><vh>w7</vh>
+<v t="leo.20200428181912.2"><vh>w7</vh></v>
 </v>
-<v t="leo.20200428181912.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200428181912.2"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20200617093437.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617093437.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617093437.1"><vh>w9</vh>
+<v t="leo.20200617093437.2"><vh>w9</vh></v>
 </v>
 </v>
 <v t="leo.20200617102013.1"><vh>各式內容引用範例</vh>
-<v t="leo.20200617102013.18"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.19"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.18"><vh>w10-18</vh>
+<v t="leo.20200617102013.19"><vh>w10-18</vh></v>
 </v>
-<v t="leo.20200617102304.1"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102304.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102304.1"><vh>w10</vh>
+<v t="leo.20200617102304.2"><vh>w10</vh></v>
 </v>
-<v t="leo.20200617102013.20"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.21"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.20"><vh>w11</vh>
+<v t="leo.20200617102013.21"><vh>w11</vh></v>
 </v>
-<v t="leo.20200617102013.22"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.23"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.22"><vh>w12</vh>
+<v t="leo.20200617102013.23"><vh>w12</vh></v>
 </v>
-<v t="leo.20200617102013.24"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.25"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.24"><vh>w13</vh>
+<v t="leo.20200617102013.25"><vh>w13</vh></v>
 </v>
-<v t="leo.20200617102013.26"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.27"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.26"><vh>w14</vh>
+<v t="leo.20200617102013.27"><vh>w14</vh></v>
 </v>
-<v t="leo.20200617102013.28"><vh>導入數學符號與方程式</vh>
-<v t="leo.20200617102013.29"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200617102013.28"><vh>w15</vh>
+<v t="leo.20200617102013.29"><vh>w15</vh></v>
 </v>
 </v>
 </v>
@@ -350,21 +347,6 @@ https://www.youtube.com/watch?v=ZqX1vtJ4i9A&amp;feature=emb_title</t>
 執行 get-pip.py(取得安裝管理工具)
 用pip安裝(pip install): Flask Markdown lxml bs4 flask_cors pelican leo
 </t>
-<t tx="leo.20200428181920.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200428181920.2"># week3
-
-放空
-</t>
 <t tx="leo.20200428181922.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -412,9 +394,9 @@ https://s40723108.github.io/cd2020/content/4.html</t>
 <t tx="leo.20200617093437.2"># week9
 
 
-其中作業
+期中作業
 
- ### https://drive.google.com/file/d/1bpDUOolHSYKV_0Fgm4DCVBrLZsCLWrFS/view?usp=sharing
+ ###### https://drive.google.com/file/d/1bpDUOolHSYKV_0Fgm4DCVBrLZsCLWrFS/view?usp=sharing
 
 
 </t>
@@ -449,11 +431,11 @@ https://s40723108.github.io/cd2020/content/4.html</t>
 </t>
 <t tx="leo.20200617102013.21"># week11
 
-cdaw12-1
+download
 
-網站:http://mde.tw/cdaw12-1/content/index.html
+###### https://drive.google.com/file/d/143jFMheM1xjLxhLkSAouThLzj3WUYX6_/view
 
-倉儲:https://github.com/mdecourse/cdaw12-1
+開啟Oracle VM VirtualBox並執行下載的檔案
 </t>
 <t tx="leo.20200617102013.22">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -467,6 +449,12 @@ cdaw12-1
 						
 </t>
 <t tx="leo.20200617102013.23"># week12
+
+cdaw12-1
+
+網站:http://mde.tw/cdaw12-1/content/index.html
+
+倉儲:https://github.com/mdecourse/cdaw12-1
 
 Virtualbox網路設定
 
