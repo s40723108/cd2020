@@ -490,10 +490,13 @@ https://s40723108.github.io/cd2020/content/13.html
 </t>
 <t tx="leo.20200617102013.27"># week14
 
-ubuntu設定IVP6
+cdaw14-3
 
-https://s40723108.github.io/cd2020/content/13.html
-</t>
+http://mde.tw/cdaw14-3/content/index.html
+
+IPv6 網路設定
+
+https://s40723108.github.io/cd2020/content/14.html</t>
 <t tx="leo.20200617102013.28">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
